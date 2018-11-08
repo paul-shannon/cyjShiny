@@ -6,7 +6,7 @@ webpack:
 	mv dist/bundle.js ../htmlwidgets/lib/
 
 package:
-	(cd ../..; R CMD install .)
+	(cd ../..; R CMD INSTALL .)
 clean:
 	- rm -rf dist/
 	- rm -rf node_modules
